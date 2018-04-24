@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnsafePerfTest", "UnsafePerfTest\UnsafePerfTest.csproj", "{836778C0-FEB6-4A84-8A6F-60393B2E828A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{836778C0-FEB6-4A84-8A6F-60393B2E828A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836778C0-FEB6-4A84-8A6F-60393B2E828A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836778C0-FEB6-4A84-8A6F-60393B2E828A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836778C0-FEB6-4A84-8A6F-60393B2E828A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45E273E9-FA03-4A10-801A-47E8C2002884}
+	EndGlobalSection
+EndGlobal
