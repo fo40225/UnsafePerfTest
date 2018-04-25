@@ -47,7 +47,7 @@ namespace UnsafePerfTest
         }
 
         [Benchmark]
-        public void UnsafeAccessArrayWorkroundOffset()
+        public void UnsafeAccessArrayOffsetWorkround()
         {
             var y = new int[1048576];
             fixed (int* ptrX = x, ptrY = y)
@@ -62,7 +62,7 @@ namespace UnsafePerfTest
         }
 
         [Benchmark]
-        public void UnsafeAccessArrayWorkroundRawPointer()
+        public void UnsafeAccessArrayRawPointer()
         {
             var y = new int[1048576];
             fixed (int* ptrX = x, ptrY = y)
