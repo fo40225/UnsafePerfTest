@@ -5,6 +5,7 @@ using BenchmarkDotNet.Attributes;
 
 namespace UnsafePerfTest
 {
+    [DisassemblyDiagnoser(printAsm: true)]
     public unsafe class UnsafeTest
     {
         static Random rnd = new Random();
